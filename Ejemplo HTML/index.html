@@ -4,23 +4,30 @@
     <head>
         <!-- Agregar archivos externos TITULOOS -->
         <title>Este es mi titulo</title>
+        <!-- Conectar css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Para agregar la fuente de google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&family=Indie+Flower&display=swap" rel="stylesheet">
     </head>
 
     <!-- Lo que el usuario ve -->
     <body>
-        <h1>Hola Mundo c:</h1>
-        <h2>Hola Mundo cc:</h2>
-        <h3>Hola Mundo ccc:</h3>
-        <h4>Hola Mundito c:</h4>
-        <h5>Hola Mundito c:</h5>
-        <h6>Hola munditito</h6>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est doloremque perspiciatis suscipit, cumque quidem nisi iure. Voluptatibus iusto mollitia id omnis quidem atque dicta expedita. Molestias explicabo iste sapiente dicta?</p>
-
-        <h1>Web Perruna</h1>
+        <div>
+            <h1>Hola Mundo c:</h1>
+            <h2>Hola Mundo cc:</h2>
+            <h3>Hola Mundo ccc:</h3>
+            <h4>Hola Mundito c:</h4>
+            <h5>Hola Mundito c:</h5>
+            <h6>Hola munditito</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est doloremque perspiciatis suscipit, cumque quidem nisi iure. Voluptatibus iusto mollitia id omnis quidem atque dicta expedita. Molestias explicabo iste sapiente dicta?</p>            
+        </div>
         <main>
+            <h1 class="Titulo-Web">Web Perruna</h1>
             <h2>Imagenes de Wolfy</h2>
-            <img src="imagenes/wofito.jpeg">
+            <img class="wofy" src="imagenes/wofito.jpeg">
+            <br>
             <img src="https://tvazteca.brightspotcdn.com/2a/32/1199875c4f87afc979322f4f412a/la-mirada-de-los-perritos-es-irresistible.jpg">
 
             <!-- Listas -->
@@ -33,6 +40,10 @@
                     <li>Comer</li>
                     <li>Jugar</li>
                     <li>Morder tus zapatos</li>
+                    <!-- li*3 para poner items de una sola-->
+                    <li> una cosa</li>
+                    <li> otra cosa</li>
+                    <li> y la ultima</li>
                 </ul>
                 <img src="imagenes/pomeranio.png" alt="Pomerania feliz">
                 <p>Cosas que Wolfy <em>odia</em></p>
@@ -47,31 +58,31 @@
 
             <!-- Enlaces internos -->
             <div>
-                <img src="imagenes/manzana.png" alt="manzanita">
+                <img class="manzana" src="imagenes/manzana.png" alt="manzanita">
                 <a href="#Parrafo_1">Parrafo 1</a>
-                <img src="imagenes/manzana.png" alt="manzanita">
+                <img class="manzana" src="imagenes/manzana.png" alt="manzanita">
                 <a href="#Parrafo_2">Parrafo 2</a>
-                <img src="imagenes/manzana.png" alt="manzanita">
+                <img class="manzana" src="imagenes/manzana.png" alt="manzanita">
                 <a href="#Parrafo_3">Parrafo 3</a>
-                <img src="imagenes/manzana.png" alt="manzanita">
+                <img class="manzana" src="imagenes/manzana.png" alt="manzanita">
 
                 <h3 id="Parrafo_1">Parrafo 1</h3>
-                <img src="imagenes/manzana (1).png">
+                <img class="manzana" src="imagenes/manzana (1).png">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores nesciunt iusto explicabo corrupti nemo tempore maiores dolore molestiae, animi, aperiam necessitatibus. Necessitatibus, consequatur? Aliquam a minus necessitatibus voluptatum accusantium voluptatem?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nemo inventore voluptate quas, saepe vero quo laborum nisi consequatur, asperiores consequuntur delectus maxime hic numquam sint, ad ut molestias nihil?</p>
 
                 <img src="imagenes/delfin.png">
                 <h3 id="Parrafo_2">Parrafo 2</h3>
-                <img src="imagenes/manzana (1).png">
+                <img class="manzana" src="imagenes/manzana (1).png">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat exercitationem voluptate sapiente consequuntur nobis quisquam quod. Impedit sunt, nobis totam eos rem hic ut quae corrupti. Consequuntur aliquid asperiores earum.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis incidunt harum ipsum, consectetur sit culpa? Illo assumenda ad est perspiciatis accusantium, eaque voluptatum molestias provident, maxime aperiam quidem odit natus!</p>
 
                 <img src="imagenes/delfin.png">
                 <h3 id="Parrafo_3">Parrafo 3</h3>
-                <img src="imagenes/manzana (1).png">
+                <img class="manzana" src="imagenes/manzana (1).png">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil asperiores tenetur quo tempore suscipit dolorem ab aspernatur unde repellendus repudiandae quae recusandae atque, perspiciatis similique? Quasi iure molestiae pariatur nesciunt?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, obcaecati facilis odit deleniti exercitationem quia voluptates officiis, non dignissimos vitae voluptatem sequi tenetur quam alias eveniet expedita consequuntur vel fuga.</p>
-                <img src="imagenes/delfin.png">
+                <img class="manzana" src="imagenes/delfin.png">
             </div>
 
             <!-- Enlaces externos-->
@@ -81,6 +92,34 @@
                 <!-- Enlace en una imagen -->
                 <a href="https://github.com/Andyalcam/Desarrollo_Frontend"> <img src="imagenes/github.png"></a>
             </div>
+
+            <!-- Formularios -->
+            <div>
+                <p>¿Wolfy es cachorro?</p>
+                <label for="cachorro">
+                    <input id="cachorro" type="radio" value="cachorro" name="edad"> Cachorro 🐶
+                </label>
+                <label for="adulto">
+                    <input id="adulto" type="radio" value="adulto" name="edad"> Adulto 🐶
+                </label>
+                <!-- Formulario checkbox -->
+                <p>¿Qué tipo de perro es Wolfy?</p>
+                <label for="cariñoso">
+                    <input id="cariñoso" type="checkbox" value="cariñoso" name="pesonalidad"> Cariñoso
+                </label>
+                <label for="enojon">
+                    <input id="enojon" type="checkbox" value="enojon" name="pesonalidad"> Enojon
+                </label>
+                <label for="perezoso">
+                    <input id="perezoso" type="checkbox" value="perezoso" name="pesonalidad"> Perezoso
+                </label>
+                <label for="jugueton">
+                    <input id="jugueton" type="checkbox" value="jugueton" name="pesonalidad"> Jugueton
+                </label>
+            </div>
         </main>
+        <footer>
+            <p>Página creada por Andy en <a href="https://tecnolochicas.mx/">Tecnolochicas</a> 👩🏻‍💻</p>
+        </footer>
     </body>
 </html>

@@ -1,0 +1,26 @@
+/* Comentario en css */
+body{
+    background-color: rgb(200, 238, 255);
+    color: rgb(4, 93, 10);
+    font-family: 'Indie Flower', cursive;
+}
+p{
+    color: rgb(205, 1, 154);
+}
+h1{
+    color: blueviolet;
+}
+/* Para agregar una clase, ponemos . antes del number */
+.Titulo-Web{
+    color: black;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+img{
+    width: 200px;
+}
+.wofy{
+    width: 400px;
+}
+.manzana{
+    width: auto;
+}
