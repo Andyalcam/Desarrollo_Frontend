@@ -1,11 +1,11 @@
 body{
+    background-image: url(https://img2.wallspic.com/previews/3/4/7/9/5/159743/159743-google-google_chrome-chrome_os-chrome_os_2020-sistema_operativo-x750.jpg);
     margin: 0;
     padding: 0;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-color: antiquewhite;
     width: 100%;
     height: 60px;
 }
@@ -27,10 +27,86 @@ a{
 nav .nav-right-section a{
     margin-right: 10px;
     color: rgb(21, 21, 21);
+    color: white;
 }
 nav .nav-right-section .menu{
-    background-image: url(https://cdn-icons-png.flaticon.com/512/17/17704.png);
+    background-image: url(https://cdn-user-icons.flaticon.com/97328/97328330/1680368745238.svg?token=exp=1680369689~hmac=92e221101d94a15a7f035062f7cbd921);
     width: 20px;
     height: 20px;
+    margin-right: 30px;
+    margin-left: 20px;
     background-size: contain;
+}
+nav .nav-right-section img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+main .logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+main .logo p{
+    font-size: 85px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    margin-top: 90px;
+    text-align: center;
+}
+main .input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+main .container{
+    background-color: white;
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 80px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .input input{
+    border: none;
+    width: 345px;
+    height: 40px;
+    outline: none;
+}
+main .container:hover{
+    box-shadow: 0 1px 1px 1px rgb(127, 74, 74);
+}
+main .input .search-icon{
+    background-image: url(https://cdn-icons.flaticon.com/svg/3917/3917132.svg?token=exp=1680375315~hmac=609714349fadab02ad02f399616681df);
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    background-repeat: no-repeat;
+    height: 15px;
+}
+main .input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+main .buttons div{
+    display: inline-block;
+    margin-inline: 5px;
+}
+main .buttons button{
+    border: none;
+    width: 160px;
+    height: 35px;
+    border-radius: 5px;
+}
+main .buttons button:hover{
+    box-shadow: 1px 1px 1px 1px rgb(127, 74, 74);
 }
